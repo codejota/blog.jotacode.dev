@@ -4283,7 +4283,7 @@ __metadata:
     eslint-config-next: "npm:^14.0.2"
     eslint-plugin-jsdoc: "npm:^46.8.2"
     eslint-plugin-playwright: "npm:^0.18.0"
-    eslint-plugin-testing-library: "npm:^6.1.0"
+    eslint-plugin-testing-library: "npm:^6.2.0"
     fast-xml-parser: "npm:^4.3.2"
     framer-motion: "npm:^10.16.4"
     github-slugger: "npm:^2.0.0"
@@ -6156,14 +6156,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-testing-library@npm:^6.1.0":
-  version: 6.1.0
-  resolution: "eslint-plugin-testing-library@npm:6.1.0"
+"eslint-plugin-testing-library@npm:^6.2.0":
+  version: 6.2.0
+  resolution: "eslint-plugin-testing-library@npm:6.2.0"
   dependencies:
     "@typescript-eslint/utils": "npm:^5.58.0"
   peerDependencies:
     eslint: ^7.5.0 || ^8.0.0
-  checksum: 3ddcf014e35029f9b90340598de0620038e87712543d013934ea9f972619e388467498f327396d1fe7242eb0d75445b04135822a5bf526166656b68e9107f6a9
+  checksum: 00ed418670f5842151d8a195315aaaf36f4b19e62d539c67be40edf634914a95cc0f65bdb30a4e7a078aafecd5bae423dd4d1f96b2879e72bb9cb80d09a3916c
   languageName: node
   linkType: hard
 
