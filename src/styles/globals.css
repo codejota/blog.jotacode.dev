@@ -310,16 +310,12 @@ body {
 
 .hover-text:hover {
   color: #f87171;
-  /* Vermelho-400 do Tailwind CSS */
   transition: color 0.3s;
-  /* Adiciona uma transição suave */
 }
 
 ::selection {
   background-color: #f87171;
-  /* Cor de fundo selecionado */
   color: #000;
-  /* Cor do texto selecionado */
 }
 
 
