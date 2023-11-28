@@ -107,12 +107,7 @@ const CommandMenu = () => {
           title: 'Curriculum',
           icon: <FaFilePdf size={16} className='mr-2' />,
           onSelect: () =>
-            runCommand(() =>
-              window.open(
-                'https://drive.google.com/file/d/1mcvt2wXgBFWk_CylHFkaE36sp92yUHhl/view',
-                '_blank'
-              )
-            )
+            runCommand(() => window.open('https://cv.jotacode.dev/', '_blank'))
         }
       ]
     }

@@ -210,6 +210,6 @@ export const HERO_LINKS: HeroLinks = [
     id: 'cv',
     label: 'CV',
     icon: <FaFilePdf size={24} />,
-    href: 'https://drive.google.com/file/d/1mcvt2wXgBFWk_CylHFkaE36sp92yUHhl/view'
+    href: 'https://cv.jotacode.dev/'
   }
 ]
