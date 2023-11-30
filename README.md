@@ -2,6 +2,7 @@
   <img src="https://blog.jotacode.dev/images/projects/blog/cover.png">
 </p>
 
+<a href="https://wakatime.com/badge/user/9b69e382-a961-4fe1-a77d-136b1f73ae6f/project/e31f7734-2eff-4264-9506-1d924a1c2c7c"><img src="https://wakatime.com/badge/user/9b69e382-a961-4fe1-a77d-136b1f73ae6f/project/e31f7734-2eff-4264-9506-1d924a1c2c7c.svg" alt="wakatime"></a>
 # Jotacode's Personal Blog
 
 Welcome to my personal blog repository! This repository contains the code for my blog, where I share my thoughts, projects, and insights. Feel free to explore and get inspired.
