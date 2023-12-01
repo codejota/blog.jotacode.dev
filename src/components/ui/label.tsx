@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 'use client'
 
 import * as LabelPrimitive from '@radix-ui/react-label'
@@ -13,7 +14,7 @@ const labelVariants = cva(
 const Label = React.forwardRef<
   React.ElementRef<typeof LabelPrimitive.Root>,
   React.ComponentPropsWithoutRef<typeof LabelPrimitive.Root> &
-    VariantProps<typeof labelVariants>
+  VariantProps<typeof labelVariants>
 >((props, ref) => {
   const { className, ...rest } = props
 

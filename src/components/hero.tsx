@@ -52,7 +52,6 @@ const Hero = () => {
                 ' Code, coffee, and creativity - my daily routine.',
                 ' Learning is a lifelong adventure, and code is the compass.',
                 ' Coding, drawing, and dreaming of a better world.'
-
               ],
               autoStart: true,
               loop: true
