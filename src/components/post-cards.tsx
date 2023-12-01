@@ -78,7 +78,7 @@ const PostCard = (props: PostCardProps) => {
       href={`/blog/${slug}`}
       className={cn(
         'hover:border-snippet-card-animation group relative flex flex-col space-y-1 rounded-2xl   p-4 duration-150 hover:scale-105',
-        'relative flex flex-col space-y-3 rounded-2xl border p-6 group-hover:after:opacity-100',
+        'relative flex flex-col space-y-3 rounded-2xl  p-6 group-hover:after:opacity-100',
         'hover:before:opacity-100'
       )}
       data-id='post-card'
