@@ -15,7 +15,7 @@ export const runtime = 'edge'
 
 const HomePage = () => {
   const posts = getAllPosts({
-    limit: 1
+    limit: 3
   })
 
   return (
