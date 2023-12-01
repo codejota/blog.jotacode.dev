@@ -7,6 +7,7 @@ const GISCUS_CONFIG: GiscusProps = {
   repoId: env.NEXT_PUBLIC_GISCUS_REPOSITORY_ID,
   category: env.NEXT_PUBLIC_GISCUS_CATEGORY,
   categoryId: env.NEXT_PUBLIC_GISCUS_CATEGORY_ID,
+  theme: 'noborder_dark',
   mapping: 'pathname',
   reactionsEnabled: '1',
   emitMetadata: '1',
