@@ -6,7 +6,6 @@ import { z } from 'zod'
 export const env = createEnv({
   skipValidation: process.env.CI === 'true' || process.env.NODE_ENV === 'test',
   server: {
-
     NEXTAUTH_SECRET: z.string().min(1),
     NEXTAUTH_URL: z.string().min(1),
 
