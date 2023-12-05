@@ -1440,10 +1440,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/openapi-types@npm:^19.0.2":
-  version: 19.0.2
-  resolution: "@octokit/openapi-types@npm:19.0.2"
-  checksum: e003a3b7471edfa970911252c19ce9331d935699cc1e91a1e151316b585c3b2f5251bc5ba137b7e14aed8a9b3890fdf67edc5cc5af4805bf4b44f5869544e678
+"@octokit/openapi-types@npm:^19.1.0":
+  version: 19.1.0
+  resolution: "@octokit/openapi-types@npm:19.1.0"
+  checksum: ae8081f52b797b91a12d4f6cddc475699c9d34b06645b337adc77d30b583d8fe8506597a45c42f8f1a96bfb2a9d092cee257d8a65d718bfeed23a0d153448eea
   languageName: node
   linkType: hard
 
@@ -1532,12 +1532,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/types@npm:^12.1.1":
-  version: 12.1.1
-  resolution: "@octokit/types@npm:12.1.1"
+"@octokit/types@npm:^12.4.0":
+  version: 12.4.0
+  resolution: "@octokit/types@npm:12.4.0"
   dependencies:
-    "@octokit/openapi-types": "npm:^19.0.2"
-  checksum: 9c72d969b2c2c7ff03d285636c4cad43ddc55e540ff7a1a75279095219a27c629b5a753cc186aba65f645fa6be52eeb873d070bae0dc8180bdb48f3155bed574
+    "@octokit/openapi-types": "npm:^19.1.0"
+  checksum: b52b3fd8af307a1868846991f8376548a790814b20639dee1110271a768c0489081970df893ca2230f6285066003230d22f5877eeac90418971a475c79808241
   languageName: node
   linkType: hard
 
@@ -4237,7 +4237,7 @@ __metadata:
     "@giscus/react": "npm:^2.3.0"
     "@headlessui/react": "npm:^1.7.17"
     "@octokit/rest": "npm:^20.0.2"
-    "@octokit/types": "npm:^12.1.1"
+    "@octokit/types": "npm:^12.4.0"
     "@playwright/test": "npm:^1.39.0"
     "@prisma/client": "npm:^5.5.2"
     "@radix-ui/react-alert-dialog": "npm:^1.0.5"
