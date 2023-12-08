@@ -3253,12 +3253,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:^20.8.10":
-  version: 20.8.10
-  resolution: "@types/node@npm:20.8.10"
+"@types/node@npm:^20.10.4":
+  version: 20.10.4
+  resolution: "@types/node@npm:20.10.4"
   dependencies:
     undici-types: "npm:~5.26.4"
-  checksum: caaa3ae9294f1bfdacb029a916c64af63cbcea613a52f53ea86f93c91779859af177b2b68113ef835194519f5e76cadda08559929b68297f1a8a568c207f9f66
+  checksum: 2c8b70cba731eb2ae3ae046daa74903bfcbb0e7b9196da767e5895054f6d252296ae7a04fb1dbbcb53bb004c4c658c05eaea2731bc9e2dd9e08f7e88d672f563
   languageName: node
   linkType: hard
 
@@ -4262,7 +4262,7 @@ __metadata:
     "@types/canvas-confetti": "npm:^1.6.3"
     "@types/hast": "npm:^3.0.2"
     "@types/mdx": "npm:^2.0.10"
-    "@types/node": "npm:^20.8.10"
+    "@types/node": "npm:^20.10.4"
     "@types/react": "npm:^18.2.37"
     "@types/react-dom": "npm:^18.2.14"
     "@types/rss": "npm:^0.0.31"
