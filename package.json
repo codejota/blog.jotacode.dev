@@ -4,7 +4,7 @@
   "version": "0.2.0",
   "description": "My personal website and blog built with TypeScript, Next.js, and Tailwind CSS",
   "license": "GPL-3.0",
-  "author": "Codejota <contato@jotacode.dev> (https://github.com/codejota/)",
+  "author": "Codejota <contato@jotacode.dev> (https://github.com/codejota)",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/codejota/blog.jotacode.dev.git"
