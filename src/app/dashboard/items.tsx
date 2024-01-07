@@ -18,7 +18,7 @@ import {
   BiLogoWindows,
   BiRun,
   BiSolidMedal,
-  BiSolidTerminal
+  BiSolidTerminal,
 } from 'react-icons/bi'
 import { FaRedhat, FaRoad, FaStrava } from 'react-icons/fa'
 import useSWR from 'swr'
@@ -62,7 +62,7 @@ const Items = () => {
   const { data: likesData } = useSWR<Likes>('/api/likes', fetcher)
   const { data: viewsData } = useSWR<Views>('/api/views', fetcher)
   const { data: stravaData } = useSWR<StravaData>('/api/strava', fetcher, {
-    refreshInterval: 3_600_000
+    refreshInterval: 10_000
   })
   const { data: wakatimeData } = useSWR<CombinedWakatimeData>(
     '/api/wakatime',
@@ -181,7 +181,7 @@ const Items = () => {
   const formatTime = (time: string | undefined): string => {
     if (time === undefined) return ''
 
-    const hours = Math.floor(Number(time) / 3600)
+    const hours = Math.floor(Number(time) / 7800)
     const minutes = Math.floor((Number(time) % 3600) / 60)
 
     return `${hours}h ${minutes}min`
@@ -338,7 +338,7 @@ const Items = () => {
     },
     {
       title: 'Coding Hours',
-      link: 'https://wakatime.com/@codejota',
+      link: 'https://wakatime.com/@jotacode',
       value: wakatimeData?.seconds
         ? `${Math.round(wakatimeData.seconds / 60 / 60)} hrs`
         : undefined,
@@ -346,13 +346,13 @@ const Items = () => {
     },
     {
       title: 'Top Languages',
-      link: 'https://wakatime.com/@codejota',
+      link: 'https://wakatime.com/@jotacode',
       value: formatLanguagesCard(wakatimeData),
       icon: <IconPencil />
     },
     {
       title: 'Top Operating Systems',
-      link: 'https://wakatime.com/@codejota',
+      link: 'https://wakatime.com/@jotacode',
       value: formatOperatingSystemsCard(wakatimeData),
       icon: <IconClock />
     },
