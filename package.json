@@ -46,7 +46,7 @@
     "@tabler/icons-react": "^2.40.0",
     "@types/hast": "^3.0.2",
     "@vercel/analytics": "^1.0.2",
-    "canvas-confetti": "^1.9.0",
+    "canvas-confetti": "^1.9.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "cmdk": "^0.2.0",
